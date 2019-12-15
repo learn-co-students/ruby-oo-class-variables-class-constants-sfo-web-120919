@@ -16,4 +16,10 @@ class Shoe
     self.condition = "new"
     puts "Your shoe is as good as new!"
   end
+
+  def self.all
+    BRANDS
+  end
 end
+
+
